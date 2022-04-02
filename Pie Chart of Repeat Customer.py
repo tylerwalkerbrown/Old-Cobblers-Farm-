@@ -94,29 +94,3 @@ fig1.savefig('chart.png')
 
 
 # In[ ]:
-
-
-
-
-
-# In[88]:
-
-
-def countOccurrences(O_list, n, x):
-    res = 0
-    for i in range(n):
-        if x == arr[i]:
-            res += 1
-    return res
-  
-# Driver code
-n = len(O_list)
-x = 53
-print (countOccurrences(O_list, n, x))
-
-
-# In[ ]:
-
-
-
-
